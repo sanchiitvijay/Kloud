@@ -22,11 +22,11 @@ Kloud is a simple weather information application that allows users to retrieve 
 - **Humidity:** Find out the humidity level in the selected city.
 - **Wind Speed:** Get the current wind speed in the selected city.
 
-![Kloud App Screenshot](public\images\siteEx1.png)
+![siteEx1](https://github.com/sanchiitvijay/kloud/assets/71404343/b84bd431-8467-425b-99fb-ef9c9408c06a)
+
 <br>
 
-![Kloud App Screenshot](public\images\siteEx2.png)
-
+![siteEx2](https://github.com/sanchiitvijay/kloud/assets/71404343/f16a778b-4350-4e15-b2b5-a14cc0a34354)
 
 ## Installation
 
