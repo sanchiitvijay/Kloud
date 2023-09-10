@@ -26,7 +26,7 @@ Kloud is a simple weather information application that allows users to retrieve 
 
 <br>
 
-![siteEx2](https://github.com/sanchiitvijay/kloud/assets/71404343/f16a778b-4350-4e15-b2b5-a14cc0a34354)
+![siteEx2](https://github.com/sanchiitvijay/kloud/assets/71404343/bb305850-a1c0-4770-b05f-46dbf087e52f)
 
 ## Installation
 
