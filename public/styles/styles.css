@@ -1,0 +1,150 @@
+/* html {
+    position: relative;
+    min-height: 100%;
+} */
+
+body {
+    /* font-size: 18px;  */
+    /* background-color: white */
+    background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='34.129' height='51' patternTransform='scale(3) rotate(25)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(187, 100%, 96%, 1)'/><path d='M2.51 1.597A23.682 23.682 0 000 1.72v32.65c2.18-2 4.176-4.072 5.844-5.915 3.188-3.523 9.14-2.133 10.242 2.488a5.048 5.048 0 01-.467 3.649c-1.5 2.829-3.843 2.848-5.616 2.316-1.343-.403-2.579.882-2.085 2.193.878 2.334 3.46 4.9 10.724 4.18 5.05-.5 10.712-4.53 15.487-8.911V1.72c-7.355.728-16.01 8.948-21.33 14.827-3.188 3.522-9.14 2.133-10.242-2.489a5.05 5.05 0 01.466-3.648C4.525 7.58 6.867 7.56 8.64 8.092c1.342.403 2.578-.88 2.085-2.192-.77-2.042-2.842-4.262-8.214-4.303z'  stroke-width='1' stroke='none' fill='hsla(187, 100%, 92%, 1)'/></pattern></defs><rect width='800%' height='800%' transform='translate(-87,0)' fill='url(%23a)'/></svg>")
+    /* margin: 20px; */
+    
+}
+
+.container{
+    /* background-color: #FF5D5D; */
+    /* position: absolute; */
+    word-spacing: 15px;
+    margin: 60px;
+    border: 1px solid black;
+}
+
+.leftside{
+    position: fixed;
+    /* align-self: left; */
+    padding-top: 20px;
+    top:20px;
+    left:60px;
+    font-size: 25px;
+    width: 92%;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    background-color:#60d5e8 ;
+
+    /* left: 30px; */
+}
+
+.rightside{
+    position: fixed;
+    /* align-self: right; */
+    top:20px;
+    padding-top: 20px;
+    right: 120px;
+    /* right: 30px; */
+}
+
+a{
+    color:black;
+}
+
+
+
+
+
+
+footer {
+   background-color: azure;
+}
+
+.bleftside{
+    position: fixed;
+    bottom: 0px;
+    left:0px;
+    width: 100%;
+    padding: 20px;
+    padding-left: 50px;
+    background-color: #60d5e8;
+
+}
+
+.brightside{
+    position: fixed;
+    bottom: 0px;
+    right: 60px;
+    padding: 20px;
+
+}
+
+.main{
+    margin-top: 70px;
+    margin-left: 65px;
+    margin-right: 30px;
+    line-height: 300%;
+}
+
+.form{
+    width: 20%;
+    margin-left:5px;
+}
+
+.form2{
+    width: 20%;
+    margin:30px;
+    padding-left: 20px;
+}
+
+
+.card {
+    /* border: 2px; */
+    border-radius: 5%;
+    width: 500px;
+    height: 250px;
+    background: #60d5e8;
+    color: black;
+    font-weight: 400;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    /* align-items: left;
+    position: relative; */
+    transition: all .5s ease;
+  }
+  
+  .card__image {
+    width: initial;
+    border: 1px solid white;
+    border-radius: 5%;
+    height: 100%;
+    float: left;
+    display: inline;
+    width: 42%;
+    align-items: center;
+    /* background: rgb(6,214,160); */
+    background: linear-gradient(163deg, #06d6a0 18%, rgba(17,138,178,1) 79%);
+    /* background: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='34.129' height='51' patternTransform='scale(3) rotate(25)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(187, 100%, 96%, 1)'/><path d='M2.51 1.597A23.682 23.682 0 000 1.72v32.65c2.18-2 4.176-4.072 5.844-5.915 3.188-3.523 9.14-2.133 10.242 2.488a5.048 5.048 0 01-.467 3.649c-1.5 2.829-3.843 2.848-5.616 2.316-1.343-.403-2.579.882-2.085 2.193.878 2.334 3.46 4.9 10.724 4.18 5.05-.5 10.712-4.53 15.487-8.911V1.72c-7.355.728-16.01 8.948-21.33 14.827-3.188 3.522-9.14 2.133-10.242-2.489a5.05 5.05 0 01.466-3.648C4.525 7.58 6.867 7.56 8.64 8.092c1.342.403 2.578-.88 2.085-2.192-.77-2.042-2.842-4.262-8.214-4.303z'  stroke-width='1' stroke='none' fill='hsla(187, 100%, 92%, 1)'/></pattern></defs><rect width='800%' height='800%' transform='translate(-87,0)' fill='url(%23a)'/></svg>") */
+    
+    transition: all .5s ease;
+  }
+  
+  .title {
+    font-weight: 800;
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  
+  .card__content {
+    margin-left: 30px;
+    display: inline-flex;
+
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+    gap: 4px;
+  }
+  .card__content>.smal{
+    font-size: 15px;
+  }
+  .card__content>.bigg{
+    font-size: 17px;
+    font-weight: 600;
+  }

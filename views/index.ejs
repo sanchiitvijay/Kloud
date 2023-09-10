@@ -1,0 +1,16 @@
+<%- include('partials/header.ejs') %>
+<div class="main">
+    <h1 >Weather viewer</h1>
+    <br>
+    <div class="form">
+        <form action="/show" method="post">
+            <!-- <label for="cityInput" class="form-label">City Name: </label> -->
+            <input id="cityInput" class="form-control" type="text" name="cityName" placeholder="type your city name....">
+            <button type="submit" class="btn btn-info" name="button">Show</button>
+        </form>
+    </div>
+</div>
+
+
+
+<%- include('partials/footer.ejs') %>
